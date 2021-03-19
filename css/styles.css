@@ -1,0 +1,25 @@
+.quadrado {
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+}
+
+.quadrado:nth-child(odd) {
+    background-color: grey;
+}
+.quadrado:nth-child(even) {
+    background-color: lightgray;
+}
+
+#linha-1 {
+    border: solid red;
+    border-width: 0px 0px 1px 0px;
+}
+
+#linha-3 {
+    border: solid red;
+    border-width: 1px 0px 0px 0px;
+}
+#gameInfos, #toggleInfo {
+	display: none;
+}
